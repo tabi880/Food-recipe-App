@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFEB3B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 1. Biryani -->
+        <ImageView
+            android:src="@drawable/biryani"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:text="Biryani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- 2 cups basmati rice\n- 500g chicken\n- 1 cup yogurt\n- 2 onions (fried)\n- 2 tbsp biryani masala\n- Mint, coriander, saffron, oil, salt\n\nSteps:\n1. Marinate chicken in yogurt, masala and fried onions (1 hr)\n2. Cook rice to 80%\n3. Layer rice and chicken in pot\n4. Add saffron, mint, coriander\n5. Cook on low heat for 25 min (dum)\n6. Serve hot with raita."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+
+        <!-- 2. Butter Chicken -->
+        <ImageView
+            android:src="@drawable/butter_chicken"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:text="Butter Chicken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- 500g chicken (boneless)\n- 1 cup tomato puree\n- 1/2 cup cream\n- Butter, ginger garlic paste\n- Spices: garam masala, red chili, salt\n\nSteps:\n1. Fry chicken in butter\n2. Add ginger garlic paste and cook\n3. Add tomato puree and spices\n4. Simmer until oil separates\n5. Add cream and mix well\n6. Serve with naan or rice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+
+        <!-- 3. Paneer Tikka -->
+        <ImageView
+            android:src="@drawable/paneer_tikka"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:text="Paneer Tikka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- 200g paneer cubes\n- 1/2 cup yogurt\n- Red chili, turmeric, cumin\n- Bell peppers and onions (cubes)\n- Oil, salt\n\nSteps:\n1. Mix yogurt with spices\n2. Marinate paneer and veggies (30 min)\n3. Skewer and grill or pan-fry\n4. Serve hot with mint chutney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+
+        <!-- 4. Rogan Josh -->
+        <ImageView
+            android:src="@drawable/rogan_josh"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:text="Rogan Josh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- 500g lamb/mutton\n- 1/2 cup yogurt\n- Ginger garlic paste\n- Kashmiri red chili, cardamom\n- Ghee, cloves, cinnamon, salt\n\nSteps:\n1. Fry spices in ghee\n2. Add meat, cook till brown\n3. Add yogurt and mix\n4. Simmer until meat is tender\n5. Serve hot with naan or rice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+
+        <!-- 5. Chicken Korma -->
+        <ImageView
+            android:src="@drawable/chicken_korma"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+          android:text="Chicken Korma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- 500g chicken\n- 1/2 cup fried onions\n- 1/2 cup yogurt\n- Cardamom, cinnamon, cloves\n- Almond paste, ghee, salt\n\nSteps:\n1. Fry whole spices in ghee\n2. Add chicken and cook until golden\n3. Add yogurt, onion, almond paste\n4. Simmer till thick and aromatic\n5. Garnish with cream\n6. Serve with paratha or naan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

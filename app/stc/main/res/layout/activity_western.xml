@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFEB3B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 1. Spaghetti Carbonara -->
+        <ImageView
+            android:src="@drawable/carbonara"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:text="Spaghetti Carbonara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- 200g spaghetti\n- 100g pancetta or bacon\n- 2 eggs\n- 1/2 cup Parmesan cheese\n- Black pepper, salt\n\nSteps:\n1. Boil pasta and save some pasta water\n2. Fry pancetta until crisp\n3. Mix eggs, cheese, pepper in a bowl\n4. Toss pasta with pancetta and remove from heat\n5. Add egg mixture and stir quickly\n6. Serve with extra cheese on top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+
+        <!-- 2. Cheeseburger -->
+        <ImageView
+            android:src="@drawable/cheeseburger"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:text="Cheeseburger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- 200g ground beef\n- Salt, pepper\n- 1 slice cheddar cheese\n- Burger bun, lettuce, tomato, mayo\n\nSteps:\n1. Season beef, form patty\n2. Grill or pan-fry 3–4 min each side\n3. Add cheese, let it melt\n4. Toast bun, add mayo, lettuce, tomato\n5. Assemble burger and serve hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+
+        <!-- 3. Grilled Salmon -->
+        <ImageView
+            android:src="@drawable/grilled_salmon"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:text="Grilled Salmon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- 2 salmon fillets\n- Olive oil, lemon juice\n- Salt, pepper, garlic powder\n\nSteps:\n1. Marinate salmon in lemon juice, oil, seasoning (15 min)\n2. Preheat grill or pan\n3. Cook each side 3–4 mins until flaky\n4. Serve with lemon wedges or salad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+
+        <!-- 4. Caesar Salad -->
+        <ImageView
+            android:src="@drawable/caesar_salad"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:text="Caesar Salad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- Romaine lettuce\n- Croutons\n- Caesar dressing\n- Parmesan cheese\n- Optional: grilled chicken\n\nSteps:\n1. Wash and chop lettuce\n2. Toss with croutons and dressing\n3. Add grated cheese and optional chicken\n4. Serve chilled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+
+        <!-- 5. Mac and Cheese -->
+        <ImageView
+            android:src="@drawable/mac_and_cheese"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:text="Mac and Cheese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:text="Ingredients:\n- 2 cups elbow macaroni\n- 2 tbsp butter\n- 2 tbsp flour\n- 2 cups milk\n- 1.5 cups cheddar cheese\n- Salt, pepper\n\nSteps:\n1. Boil pasta, drain\n2. Make roux with butter and flour\n3. Add milk gradually, stir to thicken\n4. Add cheese, melt completely\n5. Combine with pasta, mix well\n6. Optionally bake for 10 min for crust"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>
